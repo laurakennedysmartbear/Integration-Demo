@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="de34731c-5167-4531-8462-ea1c15a01846" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Project 8 TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="de34731c-5167-4531-8462-ea1c15a01846fileName">Project-8-TestCase-1</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="request" id="27e94b3f-a45d-40bb-a739-03809147ea66" name="USZipSoap12 GetInfoByAreaCode-GetInfoByAreaCode Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap12</con:interface><con:operation>GetInfoByAreaCode</con:operation><con:request name="USZipSoap12 GetInfoByAreaCode-GetInfoByAreaCode Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="5c96959a-e857-4db0-9ac1-20c5f4daa72e"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:GetInfoByAreaCode>\r
+         <!--Optional:-->\r
+         <web:USAreaCode>?</web:USAreaCode>\r
+      </web:GetInfoByAreaCode>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="3b569e98-86c8-4a7c-80aa-c1088f1ef0c8" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/USZipSoap/GetInfoByAreaCodeRequest"/></con:request></con:config></con:testStep><con:testStep type="request" id="c1476c0f-ca77-4d3e-85aa-7561686bcb93" name="USZipSoap12 GetInfoByCity-GetInfoByCity Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap12</con:interface><con:operation>GetInfoByCity</con:operation><con:request name="USZipSoap12 GetInfoByCity-GetInfoByCity Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="79e376b7-2114-4b69-89d5-89bab1a8da50"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:GetInfoByCity>\r
+         <!--Optional:-->\r
+         <web:USCity>?</web:USCity>\r
+      </web:GetInfoByCity>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="92c067b8-283b-4797-93b4-59d91978e6e0" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/USZipSoap/GetInfoByCityRequest"/></con:request></con:config></con:testStep><con:testStep type="request" id="62aee359-8052-48e2-836c-286e31885b07" name="USZipSoap12 GetInfoByState-GetInfoByState Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap12</con:interface><con:operation>GetInfoByState</con:operation><con:request name="USZipSoap12 GetInfoByState-GetInfoByState Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="b6c9afcd-75b0-457e-824c-d02a5d6c0fd4"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:GetInfoByState>\r
+         <!--Optional:-->\r
+         <web:USState>?</web:USState>\r
+      </web:GetInfoByState>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="165fa6b5-c82f-4cf6-ba92-06d450a430be" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/USZipSoap/GetInfoByStateRequest"/></con:request></con:config></con:testStep><con:testStep type="request" id="4a7462b3-da5d-4d7e-a597-268ab0c96264" name="USZipSoap12 GetInfoByZIP-GetInfoByZIP Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap12</con:interface><con:operation>GetInfoByZIP</con:operation><con:request name="USZipSoap12 GetInfoByZIP-GetInfoByZIP Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="7f1bec54-4de6-44f1-855b-db948ccfe843"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:GetInfoByZIP>\r
+         <!--Optional:-->\r
+         <web:USZip>?</web:USZip>\r
+      </web:GetInfoByZIP>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="bcca3485-c708-4047-8e7e-f3a1863b7a6d" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/USZipSoap/GetInfoByZIPRequest"/></con:request></con:config></con:testStep><con:testStep type="request" id="2fbee3e7-b98c-452a-98e1-0f28b37d70a4" name="USZipSoap GetInfoByAreaCode-GetInfoByAreaCode Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap</con:interface><con:operation>GetInfoByAreaCode</con:operation><con:request name="USZipSoap GetInfoByAreaCode-GetInfoByAreaCode Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="1b54d15f-c751-462e-b15e-ac04bbe95920"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetInfoByAreaCode>\r
+         <!--Optional:-->\r
+         <web:USAreaCode>?</web:USAreaCode>\r
+      </web:GetInfoByAreaCode>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="7334ff7d-768f-493f-83ab-38e0e5b6ab0a" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetInfoByAreaCode"/></con:request></con:config></con:testStep><con:testStep type="request" id="765cb6c6-0efd-4b3f-b09c-c19d33d800d1" name="USZipSoap GetInfoByCity-GetInfoByCity Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap</con:interface><con:operation>GetInfoByCity</con:operation><con:request name="USZipSoap GetInfoByCity-GetInfoByCity Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="d43a436a-b644-43cb-b715-39c60b93f662"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetInfoByCity>\r
+         <!--Optional:-->\r
+         <web:USCity>?</web:USCity>\r
+      </web:GetInfoByCity>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="7fcfa938-ead3-4ebd-b2ac-cb3ee05b3627" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetInfoByCity"/></con:request></con:config></con:testStep><con:testStep type="request" id="693e1759-7cc1-4324-b2df-4fcc74478fc2" name="USZipSoap GetInfoByState-GetInfoByState Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap</con:interface><con:operation>GetInfoByState</con:operation><con:request name="USZipSoap GetInfoByState-GetInfoByState Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="9d4a8c41-0313-403f-b190-9c5f7ca3d4ac"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetInfoByState>\r
+         <!--Optional:-->\r
+         <web:USState>?</web:USState>\r
+      </web:GetInfoByState>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="0d2ddfc5-eb0c-4c6c-a363-435936fadf81" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetInfoByState"/></con:request></con:config></con:testStep><con:testStep type="request" id="6f8f2ed0-99b2-4102-98c4-75b14f93a09b" name="USZipSoap GetInfoByZIP-GetInfoByZIP Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>USZipSoap</con:interface><con:operation>GetInfoByZIP</con:operation><con:request name="USZipSoap GetInfoByZIP-GetInfoByZIP Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="12baad3f-0630-41b4-b7a4-661ff0344a19"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetInfoByZIP>\r
+         <!--Optional:-->\r
+         <web:USZip>?</web:USZip>\r
+      </web:GetInfoByZIP>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="6b948c2b-fc1f-4feb-9691-1768b8f52cf6" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetInfoByZIP"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="2373c08e-5f42-4288-8d00-b87b75083e37" isOneWay="false" action="http://www.webserviceX.NET/GetInfoByState" name="GetInfoByState" bindingOperationName="GetInfoByState" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="2373c08e-5f42-4288-8d00-b87b75083e37fileName">GetInfoByState</con:setting></con:settings><con:call id="e21616e2-ec85-4535-b9de-35b0347e48ae" name="GetInfoByState Request"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetInfoByState>\r
+         <!--Optional:-->\r
+         <web:USState>?</web:USState>\r
+      </web:GetInfoByState>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetInfoByState"/></con:call></con:operation>

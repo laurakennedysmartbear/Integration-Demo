@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="60a468c7-8e77-44b4-9915-ec9303dd71bf" isOneWay="false" action="http://www.webserviceX.NET/GetInfoByCity" name="GetInfoByCity" bindingOperationName="GetInfoByCity" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="60a468c7-8e77-44b4-9915-ec9303dd71bffileName">GetInfoByCity</con:setting></con:settings><con:call id="392425a1-6091-4a57-84e8-11b35f8ae936" name="GetInfoByCity Request"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetInfoByCity>\r
+         <!--Optional:-->\r
+         <web:USCity>?</web:USCity>\r
+      </web:GetInfoByCity>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetInfoByCity"/></con:call></con:operation>
