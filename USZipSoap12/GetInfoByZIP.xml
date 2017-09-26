@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="0f96d11b-4f56-4df2-9005-025847310648" isOneWay="false" action="http://www.webserviceX.NET/GetInfoByZIP" name="GetInfoByZIP" bindingOperationName="GetInfoByZIP" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="0f96d11b-4f56-4df2-9005-025847310648fileName">GetInfoByZIP</con:setting></con:settings><con:call id="7f6c1835-83a2-447c-8e40-5002bd84b867" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:GetInfoByZIP>\r
+         <!--Optional:-->\r
+         <web:USZip>?</web:USZip>\r
+      </web:GetInfoByZIP>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/USZipSoap/GetInfoByZIPRequest"/></con:call></con:operation>

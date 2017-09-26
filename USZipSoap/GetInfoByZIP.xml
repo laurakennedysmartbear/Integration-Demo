@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="b579152d-1bee-410f-8402-f3b6246152eb" isOneWay="false" action="http://www.webserviceX.NET/GetInfoByZIP" name="GetInfoByZIP" bindingOperationName="GetInfoByZIP" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="b579152d-1bee-410f-8402-f3b6246152ebfileName">GetInfoByZIP</con:setting></con:settings><con:call id="997830b3-2bbc-4e4c-8ba0-3db4780d2bf9" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetInfoByZIP>\r
+         <!--Optional:-->\r
+         <web:USZip>?</web:USZip>\r
+      </web:GetInfoByZIP>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetInfoByZIP"/><con:wsrmConfig version="1.2"/></con:call></con:operation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="ae38074f-5ac5-4f89-9d97-b103d6e39ef1" isOneWay="false" action="http://www.webserviceX.NET/GetInfoByAreaCode" name="GetInfoByAreaCode" bindingOperationName="GetInfoByAreaCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="ae38074f-5ac5-4f89-9d97-b103d6e39ef1fileName">GetInfoByAreaCode</con:setting></con:settings><con:call id="46191a4c-33e5-4e5a-9b69-a0831b651ee6" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/uszip.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:GetInfoByAreaCode>\r
+         <!--Optional:-->\r
+         <web:USAreaCode>?</web:USAreaCode>\r
+      </web:GetInfoByAreaCode>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/USZipSoap/GetInfoByAreaCodeRequest"/></con:call></con:operation>
